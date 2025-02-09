@@ -16,11 +16,13 @@ how is that important? well, actually as I look ahead at gpt's suggestions it ai
 will take to get from one computer to another. thanks, boris. i prefer to call these gpt's boris... its more personable. 
 
 2025-02-08
+
 - [x] Deep model
 - [x] Math Academy
 - [x] 3 x leet codes
 
 2025-02-07
+
 - [x] Repopulate property index
 - [x] Setup top k evals for TB model
 - [x] Math Academy
