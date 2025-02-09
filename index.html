@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>logmd</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 650px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            color: #2c3e50;
+            background: #fafafa;
+        }
+        pre, code {
+            background: #f0f0f0;
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 85%;
+        }
+        pre code {
+            padding: 1em;
+            display: block;
+            overflow-x: auto;
+        }
+        .task-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .task-list-item {
+            margin: 0.5em 0;
+            display: flex;
+            align-items: center;
+        }
+        .task-list-item input {
+            margin-right: 0.5em;
+        }
+        h1 { 
+            font-size: 1.5em;
+            margin-top: 2em;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <p>2025-02-09</p>
+<p>What if I got a PhD in an area that made an impact? I could set an example for the kids
+who missed the traditional path. The kids that strayed in their twenties. Hit the booze, 
+prioritized the wrong things, and now find themselves lost. I could show them that it's possible
+to be your fittest and most productive well past your thirties. Selfishly, I love the intelluctual
+endeavour. I want to prove to myself that I can do this. I want to meet great people and learn from them.</p>
+<ul>
+<li>[x] Math Academy</li>
+<li>[x] 2 x leet codes</li>
+<li>[ ] Deep research</li>
+</ul>
+<p>cool... so max diameter of n-nary trees is a fun one. where would someone apply such a thing in real life?
+surely, there's a fun practical application. chatgpt is saying the diameter of a network of computers is a good example.
+how is that important? well, actually as I look ahead at gpt's suggestions it aids estimating how long a message
+will take to get from one computer to another. thanks, boris. i prefer to call these gpt's boris... its more personable. </p>
+<p>2025-02-08
+- [x] Deep model
+- [x] Math Academy
+- [x] 3 x leet codes</p>
+<p>2025-02-07
+- [x] Repopulate property index
+- [x] Setup top k evals for TB model
+- [x] Math Academy
+- [x] 3 x leet codes</p>
+<p>Papers on time-series sampling:
+“Forecasting, structural time series models and the Kalman filter” by Harvey (1989)
+“Time Series Analysis: Forecasting and Control” by Box, Jenkins, Reinsel, and Ljung</p>
+    <script>
+        document.querySelectorAll('li').forEach(function(li) {
+            var text = li.textContent;
+            if (text.startsWith('[ ]') || text.startsWith('[x]')) {
+                var checked = text.startsWith('[x]');
+                var checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.checked = checked;
+                checkbox.disabled = true;
+                li.innerHTML = li.innerHTML.replace(/\[[ x]\]/, '');
+                li.insertBefore(checkbox, li.firstChild);
+                li.classList.add('task-list-item');
+                if (li.parentElement) li.parentElement.classList.add('task-list');
+            }
+        });
+    </script>
+</body>
+</html>
