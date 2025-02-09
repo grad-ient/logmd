@@ -2,7 +2,7 @@ from pathlib import Path
 import markdown
 
 class LogSite:
-    def __init__(self, log-path='log.md', output_dir='_site'):
+    def __init__(self, log_path='log.md', output_dir='_site'):
         self.log_path = Path(log_path)
         self.output_dir = Path(output_dir)
         self.md = markdown.Markdown(extensions=['fenced_code', 'tables', 'task_lists'])
