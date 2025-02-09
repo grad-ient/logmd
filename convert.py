@@ -5,7 +5,7 @@ class LogSite:
     def __init__(self, log_path='log.md', output_dir='_site'):
         self.log_path = Path(log_path)
         self.output_dir = Path(output_dir)
-        self.md = markdown.Markdown(extensions=['fenced_code', 'tables', 'task_lists'])
+        self.md = markdown.Markdown(extensions=['fenced_code', 'tables'])
 
 
     def generate(self):
@@ -44,8 +44,17 @@ class LogSite:
                         display: block;
                         overflow-x: auto;
                     }}
-                    input[type="checkbox"] {{
-                        margin-right: 0.5em;
+                    .task-list {{
+                        list-style-type: none;
+                        padding-left: 0;
+                    }}
+                    .task-list-item {{
+                        margin: 0.5em 0;
+                        display: flex;
+                        align-items: center;
+                    }}
+                    .task-list input {{
+                        margin-bottom: 0.5em;
                     }}
                     h1 {{ 
                         font-size: 1.5em;
@@ -57,6 +66,18 @@ class LogSite:
             </head>
             <body>
                 {self.md.convert(content)}
+                <script>
+                    // Convert markdown task lists to checkboxes
+                    document.querySelectorAll('li').forEach(li => {{
+                        if (li.textContent.startsWith('[ ]') || li.textContent.startsWith('[x]')) {{
+                            const checked = li.textContent.startsWith('[x]');
+                            li.innerHTML = li.innerHTML.replace(/^\[[ x]\]/, 
+                                `<input type="checkbox" ${checked ? 'checked' : ''} disabled>`);
+                            li.classList.add('task-list-item');
+                            if (li.parentElement) li.parentElement.classList.add('task-list');
+                        }}
+                    }});
+                </script>
             </body>
         </html>
         """
