@@ -1,11 +1,14 @@
 2025-02-10
 
 Ok... fun times. This week's focus is on building out a few candidate models for the TB project.
-It's basically a property recsys - it's a ton of fun getting back into tangible machine learning
-over API gymnastics with foundational models. I'll sprinkle in some competitive programming and math
+It's basically a property recsys - it's a ton of fun getting back to good ol machine learning
+over API dev with foundational models. I'll sprinkle in some competitive programming and math
 academy to keep the brain sharp. 
 
-
+- [ ] Math Academy
+- [ ] Finish property embeddings ingestion
+- [ ] 2 x leet codes
+- [ ] Sauna... it's been a while
 
 2025-02-09
 
@@ -16,9 +19,9 @@ is in reverse.I want to prove to myself that I can do it. I want to meet great p
 - [x] 2 x leet codes
 - [ ] Deep research
 
-Cool... so max diameter of n-nary trees is a fun one. where would someone apply such a thing in real life?
+Cool... So the max diameter of n-nary trees is a fun coding problem. Where would someone apply such a thing in real life?
 Surely, there's a fun practical application. ChatGPT is saying the diameter of a network of computers is a good example.
-How is that important? well, actually as I look ahead at gpt's suggestions it aids estimating how long a message
+How is that important? Well, actually as I look ahead at gpt's suggestions it aids estimating how long a message
 will take to get from one computer to another. 
 
 2025-02-08
@@ -35,6 +38,7 @@ will take to get from one computer to another.
 - [x] 3 x leet codes
 
 Papers on time-series sampling:
-“Forecasting, structural time series models and the Kalman filter” by Harvey (1989)
-“Time Series Analysis: Forecasting and Control” by Box, Jenkins, Reinsel, and Ljung
+
+- “Forecasting, structural time series models and the Kalman filter” by Harvey (1989)
+- “Time Series Analysis: Forecasting and Control” by Box, Jenkins, Reinsel, and Ljung
 
