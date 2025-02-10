@@ -1,19 +1,25 @@
+2025-02-10
+
+Ok... fun times. This week's focus is on building out a few candidate models for the TB project.
+It's basically a property recsys - it's a ton of fun getting back into tangible machine learning
+over API gymnastics with foundational models. I'll sprinkle in some competitive programming and math
+academy to keep the brain sharp. 
+
+
+
 2025-02-09
 
-What if I got a PhD in an area that made an impact? I could set an example for the kids
-who missed the traditional path. The kids that strayed in their twenties. Hit the booze, 
-prioritized the wrong things, and now find themselves lost. I could show them that it's possible
-to be your fittest and most productive well past your thirties. Selfishly, I love the intelluctual
-endeavour. I want to prove to myself that I can do this. I want to meet great people and learn from them.
+Annually I ponder what it would be like to go into research. Get a PhD. I think about how my journey
+is in reverse.I want to prove to myself that I can do it. I want to meet great people and learn from them.
 
 - [x] Math Academy
 - [x] 2 x leet codes
 - [ ] Deep research
 
-cool... so max diameter of n-nary trees is a fun one. where would someone apply such a thing in real life?
-surely, there's a fun practical application. chatgpt is saying the diameter of a network of computers is a good example.
-how is that important? well, actually as I look ahead at gpt's suggestions it aids estimating how long a message
-will take to get from one computer to another. thanks, boris. i prefer to call these gpt's boris... its more personable. 
+Cool... so max diameter of n-nary trees is a fun one. where would someone apply such a thing in real life?
+Surely, there's a fun practical application. ChatGPT is saying the diameter of a network of computers is a good example.
+How is that important? well, actually as I look ahead at gpt's suggestions it aids estimating how long a message
+will take to get from one computer to another. 
 
 2025-02-08
 
