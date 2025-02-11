@@ -1,3 +1,12 @@
+2025-02-11
+
+How do skip connections actually work?
+
+- [ ] Math Academy
+- [ ] 2 x leet codes
+- [ ] Skip connection explainer
+- [ ] TB model training
+
 2025-02-10
 
 Ok... fun times. This week's focus is on building out a few candidate models for the TB project.
@@ -6,9 +15,9 @@ over API dev with foundational models. I'll sprinkle in some competitive program
 academy to keep the brain sharp. 
 
 - [ ] Math Academy
-- [ ] Finish property embeddings ingestion
+- [x] Finish property embeddings ingestion
 - [ ] 2 x leet codes
-- [ ] Sauna... it's been a while
+- [x] Sauna... it's been a while
 
 2025-02-09
 
