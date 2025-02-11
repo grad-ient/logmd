@@ -2,10 +2,16 @@
 
 How do skip connections actually work?
 
-- [ ] Math Academy
+- [x] Math Academy
 - [ ] 2 x leet codes
-- [ ] Skip connection explainer
-- [ ] TB model training
+- [x] Skip connection explainer (in my head lol)
+- [x] TB model training
+
+Random reporting requests diverted my attention for a bit. But the day ended well. In fact,
+I'm going to go to the gym, get that arm pump, then return for more ml dev. Why? Well, I
+think I might graduate from raw pytorch to pytorch lightning... I think it'll speed up
+development without compromising the nitty gritty. We'll see. I love a tool change at the
+worse possible time.
 
 2025-02-10
 
