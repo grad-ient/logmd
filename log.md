@@ -1,9 +1,13 @@
 2025-02-11
 
-How do skip connections actually work?
+How do skip connections actually work? Well, you  you add the ouput of a previous
+layer to the hidden state of a future layer. They way I think it works without looking at
+the math is that if the gradient of the future layer vanishes during backprop, we preserve
+the gradient of the previous layer. It's acts  a safey net or gradient highway as some
+like to call it. I'll grok the math and get back to you. 
 
 - [x] Math Academy
-- [ ] 2 x leet codes
+- [x] 2 x leet codes
 - [x] Skip connection explainer (in my head lol)
 - [x] TB model training
 
