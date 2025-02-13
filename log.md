@@ -1,3 +1,14 @@
+2025-02-12
+
+Random thought. Silhouette coefficient. You basically take the average distance 
+between all points and their designated cluster, then compare those distances
+to the average distance to all other clusters. The smaller the current cluster
+distance, and greater the distance to other clusters, the better the score.
+
+- [x] Math Academy
+- [x] 1 x leet code
+- [x] Wrangling new property data
+
 2025-02-11
 
 How do skip connections actually work? Well, you  you add the ouput of a previous
