@@ -1,3 +1,15 @@
+2025-02-18
+
+I'm back... It's been a few days...
+
+Today I'm continuing training my property recommender. As it stands, I'm using binary 
+cross entropy loss. The way I understand BCE is that it pushes logits low for negative samples, 
+and high for positive samples during train. Meaning we lose relative probabilities. For example, 
+if a buyer prefers two properties, but likes one more than the other, regardless 
+BCE will push both property's logits, and eventually the sigmoid value, to the extremes. As
+a result we lose the power of relative probabilities. Now, I could be wrong here, so let's
+look at the data and report back.
+
 2025-02-12
 
 Random thought. Silhouette coefficient. You basically take the average distance 
