@@ -46,7 +46,23 @@
     </style>
 </head>
 <body>
-    <p>2025-02-12</p>
+    <p>2025-02-27</p>
+<ul>
+<li>[ ] Math Academy</li>
+<li>[ ] Publish gradient descent tidbit</li>
+<li>[ ] Two tower model (if I have time)</li>
+<li>[ ] Strength training</li>
+</ul>
+<p>2025-02-18</p>
+<p>I'm back... It's been a few days...</p>
+<p>Today I'm continuing training my property recommender. As it stands, I'm using binary 
+cross entropy loss. The way I understand BCE is that it pushes logits low for negative samples, 
+and high for positive samples during train. Meaning we lose relative probabilities. For example, 
+if a buyer prefers two properties, but likes one more than the other, regardless 
+BCE will push both property's logits, and eventually the sigmoid value, to the extremes. As
+a result we lose the power of relative probabilities. Now, I could be wrong here, so let's
+look at the data and report back.</p>
+<p>2025-02-12</p>
 <p>Random thought. Silhouette coefficient. You basically take the average distance 
 between all points and their designated cluster, then compare those distances
 to the average distance to all other clusters. The smaller the current cluster
