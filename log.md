@@ -1,3 +1,10 @@
+2025-02-27
+
+- [ ] Math Academy
+- [ ] Publish gradient descent tidbit
+- [ ] Two tower model (if I have time)
+- [ ] Strength training
+
 2025-02-18
 
 I'm back... It's been a few days...
