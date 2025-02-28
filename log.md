@@ -1,9 +1,9 @@
 2025-02-27
 
-- [ ] Math Academy
-- [ ] Publish gradient descent tidbit
-- [ ] Two tower model (if I have time)
-- [ ] Strength training
+- [x] Math Academy
+- :( Publish gradient descent tidbit
+- :( Two tower model (if I have time)
+- [x] Strength training
 
 2025-02-18
 
